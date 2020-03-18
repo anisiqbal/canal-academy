@@ -1,2 +1,2 @@
-# canal-academy
-ui ux project
+# canal-academie
+canal-academie ui/ux

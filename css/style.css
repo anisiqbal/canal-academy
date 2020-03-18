@@ -1,0 +1,599 @@
+body
+{
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden !important;
+    background-color: #1d1d1b;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6, ul {
+    margin: 0 !important;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.custom-btn {
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.custom-btn:hover { color: #ffffff; }
+
+.primary-b { background-color: #65dddd; }
+.warning-b {background-color: #e95627; }
+.purple-b {background-color: #b25be4; }
+.green-b {background-color: #93c7ad; }
+.blue-b {background-color: #3977cd; }
+.pink-b {background-color: #f090c8; }
+
+
+/* header  */
+header {
+    height: 90px;
+    padding: 0 25px;
+    border-bottom: 1px solid #3d3d3b;
+}
+
+header .logo {
+    width: 99px;
+    padding: 30px 0;
+}
+
+header ul {
+    display: table;
+    float: right;
+}
+
+header ul img.user {
+    width: 40px;
+    height: 40px;
+}
+
+header ul li {
+    padding: 20px 30px;
+    border-left: 1px solid #3d3d3b;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+header ul li:first-child {
+    border-left: 0;
+}
+
+/* nav-area */
+.nav-area {
+    height: 90px;
+    border-bottom: 1px solid #3d3d3b;
+}
+
+.nav-area ul{
+    display: flex;
+}
+
+.nav-area ul li{
+    padding: 35px 20px;
+}
+
+.nav-area ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-area .filter {
+    padding: 35px 40px;
+    border-left: 1px solid #3d3d3b;
+}
+
+.nav-area .filter img
+{
+    padding: 0 20px 0 0;
+}
+
+.nav-area .filter a {
+    padding: 35px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-area .filter span{
+    font-weight: 500;
+}
+
+/* sidenav */
+.sidenav 
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+      
+.sidenav a 
+{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+      
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+}
+
+.mobile-nav { display: none; }
+
+/* main posts section  */
+
+
+.post { margin-top: 40px; position: relative; }
+
+.post .content {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #ffffff;
+}
+
+.main-posts {
+    padding: 0 20px;
+}
+
+.post-main img {
+    width: 100%;
+    height: 623px;
+    object-fit: cover;
+    object-position: top center;
+    opacity: 0.6;
+}
+
+.post-main .title {
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 20px;
+  font-family: 'Yeseva One', cursive;
+}
+
+.post-main .typo {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.post-normal img {
+    width: 100%;
+    height: 295px;
+    object-fit: cover;
+    object-position: top center;
+    opacity: 0.6;
+}
+
+.post-normal.dual-sec img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: top center;
+    opacity: 0.6;
+}
+
+.post-normal .title {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 20px 20px 0 0;
+  font-family: 'Yeseva One', cursive;
+}
+
+.post-normal .typo {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.dual-section { padding: 0 20px; }
+
+.side-links { padding: 40px 0 40px 60px; color: #ffffff; }
+
+.side-links .head h3 {
+    font-size: 28px;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3d3d3b;
+}
+
+.side-links .head h3 a
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    float: right;
+    padding: 10px 0 0 0;
+}
+
+.side-links .side-link {
+    margin-top: 30px;
+}
+
+.side-links img { 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.side-links .title
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.side-links .sub-title {
+    font-size: 14px;
+    padding-top: 10px;
+    color: #b5b5aa;
+}
+
+.side-links .date {
+    font-size: 12px;
+    padding-top: 5px;
+    color: #6c8679;
+}
+
+.side-links .detail-link {padding-top: 15px;}
+
+.side-links .detail-link a
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.side-links .icons {
+    float: right;
+}
+
+.side-links .icons.stars a {
+    font-size: 20px;
+    color: #e95627;
+}
+
+.side-links .icons.share a{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 5px;
+}
+
+.large-bt {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 25px;
+    border: solid 1px #77e2b6;
+    margin: 40px 0;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+
+}
+
+.large-bt:hover {
+    color: #ffffff;
+    border: solid 1px #95ffd4;
+    background-color: #95ffd4;
+    color: #000000;
+}
+
+.chancellor-msg {
+    background-color: #3d3d3b;
+    padding: 80px 0;
+}
+
+.chancellor-msg .content {
+    color: #ffffff;
+    position: relative;
+}
+
+.chancellor-msg .content h1
+{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+.chancellor-msg .content p
+{
+    font-size: 16px;
+    line-height: 1.63;
+    padding: 30px 0 0 0;
+}
+
+.chancellor-msg .content i {
+    font-size: 30px;
+    color: #93c7ad;
+    position: absolute;
+}
+
+.chancellor-msg .content i.fa-quote-left
+{
+    left: -10%;
+    top: 55%;
+}
+
+.chancellor-msg .content i.fa-quote-right
+{
+    right: 0%;
+    top: 70%;
+}
+
+.chancellor-msg img {
+    width: 100%;
+}
+
+.img-caption {
+    padding-top: 30px;
+    font-family: 'Yeseva One', cursive;
+    color: #ffffff;
+    padding: 0 10%;
+}
+
+.img-caption h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.discover {
+    padding: 168px 0;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+.discover h3
+{
+    font-size: 36px;
+    color: #f9f9f9;
+}
+
+.discover a {
+    padding: 25px 159px;
+    background-color: #77e2b6;
+    color: #000000;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.discover a:hover {
+    background-color: #95ffd4;
+}
+
+.sliding {
+    padding: 150px 25px;
+}
+
+.sliding .header h3 {
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #3d3d3b;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+}
+
+.slides{
+    padding: 30px 0 0 0;
+}
+
+.slides .slide {
+    position: relative;
+}
+
+.slides .slide:focus {
+    outline: none;
+}
+
+.slides .slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slides .slide .content
+{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    color: #ffffff;
+}
+
+.slides .slide .content h3
+{
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+
+.slides .slide .content a
+{
+    font-size: 12px;
+}
+
+.purpose {
+    padding: 0 0;
+}
+
+.purpose img {
+    width: 100%;
+}
+
+.purpose .b-green {
+    background-color: #6c8679;
+}
+
+.purpose .content {
+    color: #ffffff;
+    padding: 20% 25%;
+}
+
+.purpose p {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.purpose h3 {
+    font-size: 36px;
+    letter-spacing: normal;
+    line-height: 45px;
+    font-family: 'Yeseva One', cursive;
+    margin: 30px 0 !important;
+    
+}
+
+.purpose a {
+    font-size: 20px;
+    padding: 25px 135px;
+    color: #ffffff;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    font-family: 'Yeseva One', cursive;
+    position: relative;
+    top: 30px;
+}
+
+footer {
+    padding: 150px 0;
+    color: #ffffff;
+}
+
+footer ul {
+    padding: 15px 0 15px 0;
+    list-style: none;
+    color: #b5b5aa;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer ul li
+{
+    padding: 15px 0 0 0;
+}
+
+footer .socials{
+    padding: 30px 0 0 0;
+}
+
+footer .socials a {
+    border: solid 1px #77e2b6;
+    color: #ffffff;
+    padding: 20px 25px;
+}
+
+footer .socials a:hover {
+    background-color: #95ffd4;
+    color: #000000;
+}
+
+footer .input-area h3 {
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+
+footer .input-area input
+{
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #3d3d3b;
+    padding: 20px 15px;
+}
+
+footer .input-area a
+{
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #3d3d3b;
+    padding: 20px;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    header{ padding: 0; }
+    header ul li { padding: 25px; }
+
+    .nav-area { display: none; }
+    .mobile-nav { display: block; }
+
+    .post .typo { display: none; }
+    .post-main img {height: 435px;}
+    .post-main .title { font-size: 24px; }
+    .post-normal img { height: 250px; }
+    .post-normal .title { font-size: 20px; }
+    
+    .large-bt {font-size: 16px;}
+    .side-links {padding: 40px 0 40px 0;}
+
+    .chancellor-msg .content {padding-bottom: 30px;}
+    .chancellor-msg .content h1{font-size: 60px; text-align: left; padding-left: 20px;}
+    .chancellor-msg .content p {
+        font-size: 14px;
+        padding: 30px 0 0 50px;
+    }
+    .chancellor-msg .content i {font-size: 20px;}
+    .chancellor-msg .content i.fa-quote-left {left: 3%; top: 45%;}
+    .chancellor-msg .content i.fa-quote-right{display: none;}
+
+    .discover { background-image: url('../img/purpose.png'); }
+    .discover h3 {font-size: 24px;}
+    .discover a { padding: 20px; display: block; }
+
+    .purpose h3{line-height: 30px; font-size: 24px;}
+    .purpose .content{padding: 5%;}
+    .purpose a {
+        display: block; 
+        font-size: 16px; 
+        background: #000000;
+        padding: 20px;
+        text-align: center;
+        top: 0;
+    }
+
+    footer {padding: 100px 0; text-align: center; }
+
+    footer .input-area
+    {
+        position: relative;
+        top: 50px;
+    }
+}
